@@ -1,6 +1,6 @@
 package org.jmotor.restlet;
 
-import org.jmotor.model.Stack;
+import org.jmotor.model.TeamMemberDataBase;
 
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.GET;
