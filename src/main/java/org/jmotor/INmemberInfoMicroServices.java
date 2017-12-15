@@ -36,7 +36,7 @@ public class INmemberInfoMicroServices {
         config.packages("org.jmotor.restlet");
         final HttpServer server = GrizzlyHttpServerFactory.createHttpServer(uri, config);
         final String instanceId = UUID.randomUUID().toString();
-        final String serviceInstanceKey = "registry/neo/hackathon/IN/" + instanceId;
+        final String serviceInstanceKey = "registry/neo/hackathon/IN/v1/" + instanceId;
         final EtcdClient etcd = new EtcdClient(UriBuilder.fromUri("http://192.168.59.103/").port(4001).build());
 		
         Runtime.getRuntime().addShutdownHook(new Thread() 

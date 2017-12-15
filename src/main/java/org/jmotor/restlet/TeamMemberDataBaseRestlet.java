@@ -26,7 +26,7 @@ import java.util.List;
  * @author zhuhui
  * @createDate 2017-12-13
  */
-@Path("/neo/hackathon/IN")
+@Path("v1/neo/hackathon/IN")
 public class TeamMemberDataBaseRestlet {
     @GET
     @Produces("application/json")
